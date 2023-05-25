@@ -1,0 +1,26 @@
+Compiling GCD.java...done
+
+Running test 1...success
+Running test 2...success
+Running test 3...success
+Running test 4...success
+Running test 5...failure
+
+Expected________________________________________________________________________
+gcd(0, 0) = undefined
+Received________________________________________________________________________
+
+
+Running test 6...success
+Running test 7...success
+Running test 8...success
+Running test 9...success
+Running test 10...success
+Running test 11...success
+Running test 12...success
+
+Total tests run: 12
+Number correct : 11
+Percent correct: 91.66
+
+Removing class files...done

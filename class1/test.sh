@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 readonly ARCHIVE='gcd_assignments.zip'
 readonly TESTSCRIPT='test_gcd.sh'
@@ -9,7 +9,7 @@ process_file() {
   # Extract the name of the file without extensions
 
   local base=${1%.*} # except the last extension
-  echo $base
+  echo "$base"
 
   local first
   first=$(cut -d'_' -f3 <<< "$base")
